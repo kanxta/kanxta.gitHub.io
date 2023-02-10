@@ -12,6 +12,7 @@ header {
     height: 50px; /* ヘッダーの高さを指定する */
     padding: 10px; /* ヘッダーの余白を指定する(上下左右) */
     color: #000000; /* フォントの色を指定する */
+    background-color: #ffffff;
 }
 
 /* ハンバーガメニュー */
