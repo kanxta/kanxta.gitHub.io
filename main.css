@@ -2,20 +2,61 @@
 
 body {
     background-color: #bbffff;
-    font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
     margin-top: 80px;
 }
+
+.magr{
+    margin-top: 2px;
+}
+
+.new {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted #000000;
+    border-radius: 5px;
+    background-color: #ffc5f2;
+}
+.newbd{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted #000000;
+    border-radius: 5px;
+    background-color: #8bbaff;
+}
+
 header {
-    position: fixed; /* ヘッダーを固定する */
-    top: 0; /* 上部から配置の基準位置を決める */
-    left: 0; /* 左から配置の基準位置を決める */
-    width: 100%; /* ヘッダーの横幅を指定する */
-    height: 50px; /* ヘッダーの高さを指定する */
-    padding: 10px; /* ヘッダーの余白を指定する(上下左右) */
-    color: #000000; /* フォントの色を指定する */
+    position: fixed;
+    /* ヘッダーを固定する */
+    top: 0;
+    /* 上部から配置の基準位置を決める */
+    left: 0;
+    /* 左から配置の基準位置を決める */
+    width: 100%;
+    /* ヘッダーの横幅を指定する */
+    height: 50px;
+    /* ヘッダーの高さを指定する */
+    padding: 10px;
+    /* ヘッダーの余白を指定する(上下左右) */
+    color: #000000;
+    /* フォントの色を指定する */
     background-color: #ffffff;
 }
 
+.notic {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted #333333;
+    border-radius: 5px;
+    background-color: #ffff99;
+}
+.notcbd{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted #333333;
+    border-radius: 5px;
+    background-color: #8ff7a6;
+}
 /* ハンバーガメニュー */
 .nav_toggle {
     display: block;
@@ -24,7 +65,7 @@ header {
     height: 1.5rem;
 }
 
-.menu_lin{
+.menu_lin {
     color: #3b3b6e;
     background-color: #ccffb6;
 }
