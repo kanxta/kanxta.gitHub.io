@@ -13,6 +13,11 @@ body {
     height: 1.5rem;
 }
 
+.menu_lin{
+    color: #3b3b6e;
+    background-color: #ccffb6;
+}
+
 .nav_toggle i {
     display: block;
     width: 100%;
