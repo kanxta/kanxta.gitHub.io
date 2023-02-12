@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@media screen and (max-width:480px){
 body {
     background-color: #bbffff;
     font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
@@ -10,17 +11,31 @@ body {
     margin-top: 2px;
 }
 
-
+p{
+  font-size: 18px;
+}
+h1{
+  font-size: 24px;
+}
+h2{
+  font-size: 22px;
+}
+h3{
+  font-size: 20px;
+}
+h4,h5,h6{
+  font-size: 18px;
+}
 header {
     position: fixed;
     /* ヘッダーを固定する */
-    top: 0;
+    top: 0rem;
     /* 上部から配置の基準位置を決める */
     left: 0;
     /* 左から配置の基準位置を決める */
     width: 100%;
     /* ヘッダーの横幅を指定する */
-    height: 50px;
+    height: 5rem;
     /* ヘッダーの高さを指定する */
     padding: 10px;
     /* ヘッダーの余白を指定する(上下左右) */
@@ -110,7 +125,7 @@ header {
 
 .nav {
     position: fixed;
-    top: 3rem;
+    top: 5rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -124,4 +139,134 @@ header {
 .nav.show {
     opacity: 1;
     visibility: visible;
+}
+}
+
+/*pc*/
+@media screen and (min-width:481px){
+body {
+    background-color: #bbffff;8
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    margin-top: 80px;
+}
+
+.magr{
+    margin-top: 2px;
+}
+
+
+header {
+    position: fixed;
+    /* ヘッダーを固定する */
+    top: 0rem;
+    /* 上部から配置の基準位置を決める */
+    left: 0;
+    /* 左から配置の基準位置を決める */
+    width: 100%;
+    /* ヘッダーの横幅を指定する */
+    height: 2rem;
+    /* ヘッダーの高さを指定する */
+    padding: 10px;
+    /* ヘッダーの余白を指定する(上下左右) */
+    color: #000000;
+    /* フォントの色を指定する */
+    background-color: #ffffff;
+}
+
+.notic {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted #333333;
+    border-radius: 5px;
+    background-color: #ffff99;
+}
+.notcbd{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted #333333;
+    border-radius: 5px;
+    background-color: #8ff7a6;
+}
+
+.new {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted #000000;
+    border-radius: 5px;
+    background-color: #ffc5f2;
+}
+.newbd{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px dotted #000000;
+    border-radius: 5px;
+    background-color: #8bbaff;
+}
+
+
+/* ハンバーガメニュー */
+.nav_toggle {
+    display: block;
+    position: relative;
+    width: 1.75rem;
+    height: 1.5rem;
+}
+
+.menu_lin {
+    color: #3b3b6e;
+    background-color: #ccffb6;
+}
+
+.nav_toggle i {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    transition: transform .5s, opacity .5s;
+}
+
+.nav_toggle i:nth-child(1) {
+    top: 0;
+}
+
+.nav_toggle i:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.nav_toggle i:nth-child(3) {
+    bottom: 0;
+}
+
+.nav_toggle.show i:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+}
+
+.nav_toggle.show i:nth-child(2) {
+    opacity: 0;
+}
+
+.nav_toggle.show i:nth-child(3) {
+    transform: translateY(-12px) rotate(45deg);
+}
+
+.nav {
+    position: fixed;
+    top: 2.5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s;
+    background-color: #b7ffac;
+}
+
+.nav.show {
+    opacity: 1;
+    visibility: visible;
+}
 }
