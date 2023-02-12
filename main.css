@@ -35,7 +35,7 @@ header {
     /* 左から配置の基準位置を決める */
     width: 100%;
     /* ヘッダーの横幅を指定する */
-    height: 4rem;
+    height: 2rem;
     /* ヘッダーの高さを指定する */
     padding: 10px;
     /* ヘッダーの余白を指定する(上下左右) */
@@ -125,7 +125,7 @@ header {
 
 .nav {
     position: fixed;
-    top: 5.6rem;
+    top: 2rem;
     left: 0;
     right: 0;
     bottom: 0;
