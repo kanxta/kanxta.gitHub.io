@@ -4,7 +4,7 @@
 body {
     background-color: #bbffff;
     font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
-    margin-top: 5.5rem;
+    margin-top: 5rem;
 }
 
 .magr{
@@ -35,7 +35,7 @@ header {
     /* 左から配置の基準位置を決める */
     width: 100%;
     /* ヘッダーの横幅を指定する */
-    height: 5rem;
+    height: 4rem;
     /* ヘッダーの高さを指定する */
     padding: 10px;
     /* ヘッダーの余白を指定する(上下左右) */
