@@ -4,7 +4,7 @@
 body {
     background-color: #bbffff;
     font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
-    margin-top: 80px;
+    margin-top: 5.5rem;
 }
 
 .magr{
@@ -125,7 +125,7 @@ header {
 
 .nav {
     position: fixed;
-    top: 5rem;
+    top: 5.6rem;
     left: 0;
     right: 0;
     bottom: 0;
