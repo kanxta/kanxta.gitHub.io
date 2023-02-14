@@ -1,0 +1,7 @@
+# すべての
+User-Agent: *
+Disallow:
+Allow: /
+
+sitemap: https://tadokorokouji.f5.si/sitemap/main.xml
+sitemap: https://tadokorokouji.f5.si/sitemap/flag.xml
