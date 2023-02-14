@@ -1,4 +1,4 @@
-# すべての
+# クローラーのためのやつ
 User-Agent: *
 Disallow:
 Allow: /
