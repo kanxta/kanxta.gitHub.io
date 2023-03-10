@@ -176,6 +176,7 @@
         position: absolute;
         top: 0px;
         right: 0px;
+        background-color: #000000;
     }
     .g-recaptcha{
         margin: auto;
