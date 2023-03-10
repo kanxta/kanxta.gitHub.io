@@ -2,7 +2,16 @@
 
 /* --------------------スマホ-------------------- */
 @media screen and (max-width:480px) {
+    .cap{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .ca{
+        margin: auto;
+    }
     body {
+        position: relative;
         background-color: #bbffff;
         font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
         margin-top: 5rem;
@@ -163,7 +172,16 @@
 
 /* --------------------pc--------------------*/
 @media screen and (min-width:481px) {
+    .cap{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .g-recaptcha{
+        margin: auto;
+    }
     body {
+        position: absolute;
         background-color: #bbffff;
         font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
         margin-top: 80px;
