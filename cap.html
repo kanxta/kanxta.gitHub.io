@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Automatically render the reCAPTCHA widget</title>
+<script>
+var myAlert = function(response) {
+  alert("チェックボックスがチェックされました！");
+};
+</script>
+</head>
+<body>
+  <form method="post" action="?">
+    <div class="g-recaptcha" data-sitekey="6LcpDuskAAAAAOFvV9c3evuSMbKPKEzckp1o1VNG" data-callback="myAlert"></div>
+  </form>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>
