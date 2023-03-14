@@ -3,15 +3,13 @@
 /* --------------------スマホ-------------------- */
 @media screen and (max-width:480px) {
     .cap{
-        position: absolute;
-        top: 0px;
-        right: 0px;
+        min-width: 100vw;
+        min-height: 100vh;
+        margin-top: 0px;
+        background-color: #000000;
     }
-    .ca{
-        margin: auto;
-    }
-    body {
-        position: relative;
+    .bod {
+        display: none;
         background-color: #bbffff;
         font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
         margin-top: 5rem;
@@ -173,16 +171,13 @@
 /* --------------------pc--------------------*/
 @media screen and (min-width:481px) {
     .cap{
-        position: absolute;
-        top: 0px;
-        right: 0px;
+        min-width: 100vw;
+        min-height: 100vh;
+        margin-top: 0px;
         background-color: #000000;
     }
-    .g-recaptcha{
-        margin: auto;
-    }
-    body {
-        position: absolute;
+    .bod {
+        display: none;
         background-color: #bbffff;
         font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
         margin-top: 80px;
@@ -194,6 +189,7 @@
 
 
     header {
+        position: relative;
         position: fixed;
         /* ヘッダーを固定する */
         top: 0rem;

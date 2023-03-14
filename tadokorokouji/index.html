@@ -19,14 +19,17 @@
   <link rel="stylesheet" href="../main.css" />
   <link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
   <script src="../jquery.js"></script>
+  <script src="../main.js"></script>
 </herd>
 
 <body>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <div class="cap">
     <form method="post" action="?">
       <div class="g-recaptcha" data-sitekey="6LcpDuskAAAAAOFvV9c3evuSMbKPKEzckp1o1VNG" data-callback="hidecap"></div>
     </form>
   </div>
+  <div class="bod">
   <header>
     <span class="nav_toggle">
       <i></i>
@@ -60,11 +63,6 @@
     </div>
   </div>
   <p>写真を撮影するためにがんばってるお。</p>
-  <script>
-    $('.nav_toggle').on('click', function () {
-      $('.nav_toggle, .nav').toggleClass('show');
-    });
-  </script>
+</div>
 </body>
-
 </html>
