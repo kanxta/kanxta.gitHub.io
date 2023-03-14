@@ -4,6 +4,6 @@ $('.nav_toggle').on('click', function () {
 });
 
 function hidecap(){
-  $(".bod").css("display", "");
+  $(".bod").css("display", "inline");
   $(".cap").css("display","none");
 }
